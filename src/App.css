@@ -1,0 +1,17 @@
+select {
+  width: 60px;
+  padding: 6.5px;
+}
+input {
+  width: 200px;
+  padding: 5px;
+}
+@media (max-width: 600px) {
+  select,
+  input {
+    width: 280px;
+  }
+  .input-fields {
+    flex-direction: column;
+  }
+}
